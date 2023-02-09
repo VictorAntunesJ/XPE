@@ -1,49 +1,39 @@
-Inicializar um repositorio
-git init
+#COMANDOS GITHUB
 
-para saber o status dos arquivos
-git status
-.
-.
-.
+Inicializar um repositorio --- GIT INIT
+Para saber o status dos arquivos --- GIT STATUS
+
+´´´bash
 On branch master
 No commits yet
 Untracked files:
 (use "git add <file>..." to include in what will be committed)
 index.html
 nothing added to commit but untracked files present (use "git add" to track)
+´´´
 
-git add .
+Para Puxar e salvar os arquivos que esté em manuntençao --- GIT ADD.
+Para saber se o arquivo que pé está o arquivo se foi salvo ou não --- GIT ATATUS
 
-git status
-
+´´´bash
 On branch master
-
 No commits yet
-
 Changes to be committed:
 (use "git rm --cached <file>..." to unstage)
 new file: index.html
+´´´
 
-
-
-
-git commit -a -m ""
--a serve para adicionar todo tipo de arquivo 
+GIT COMMIT -A -M ""
+-a serve para adicionar todo tipo de arquivo
 -m serve para adicionar uma mensagem ""
 
-da mais um git Status para ver a finalizaçao do processo
-
-
-estou fazendo uma conexao com meu repositorio do GitHub
+da mais um GIT STATUS para ver a finalizaçao do processo
 
 git remote add origin https://github.com/VictorAntunesJ/XPE.git
+estou fazendo uma conexao com meu repositorio do GitHub
 
-
-meu branch principal nomeado em main 
+meu branch principal nomeado em main
 git branch -M main
 
-e por ultimo da um 
+e por ultimo da um
 git push -u origin main
-
- 
