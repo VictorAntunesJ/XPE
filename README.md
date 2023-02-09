@@ -5,10 +5,15 @@ Inicializar um repositorio --- GIT INIT
 Para saber o status dos arquivos --- GIT STATUS
 
 On branch master
+
 No commits yet
+
 Untracked files:
+
 (use "git add <file>..." to include in what will be committed)
+
 index.html
+
 nothing added to commit but untracked files present (use "git add" to track)
 
 Para Puxar e salvar os arquivos que esté em manuntençao --- GIT ADD.
@@ -36,7 +41,9 @@ git remote add origin https://github.com/VictorAntunesJ/XPE.git
 estou fazendo uma conexao com meu repositorio do GitHub
 
 meu branch principal nomeado em main
+
 git branch -M main
 
 e por ultimo da um
+
 git push -u origin main
