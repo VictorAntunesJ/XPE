@@ -33,4 +33,17 @@ git commit -a -m ""
 -m serve para adicionar uma mensagem ""
 
 da mais um git Status para ver a finalizaçao do processo
+
+
+estou fazendo uma conexao com meu repositorio do GitHub
+
+git remote add origin https://github.com/VictorAntunesJ/XPE.git
+
+
+meu branch principal nomeado em main 
+git branch -M main
+
+e por ultimo da um 
+git push -u origin main
+
  
