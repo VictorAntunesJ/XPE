@@ -4,23 +4,27 @@ Inicializar um repositorio --- GIT INIT
 Para saber o status dos arquivos --- GIT STATUS
 
 ´´´bash
+
 On branch master
 No commits yet
 Untracked files:
 (use "git add <file>..." to include in what will be committed)
 index.html
 nothing added to commit but untracked files present (use "git add" to track)
+
 ´´´
 
 Para Puxar e salvar os arquivos que esté em manuntençao --- GIT ADD.
 Para saber se o arquivo que pé está o arquivo se foi salvo ou não --- GIT ATATUS
 
 ´´´bash
+
 On branch master
 No commits yet
 Changes to be committed:
 (use "git rm --cached <file>..." to unstage)
 new file: index.html
+
 ´´´
 
 GIT COMMIT -A -M ""
