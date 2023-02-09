@@ -17,7 +17,7 @@ index.html
 nothing added to commit but untracked files present (use "git add" to track)
 
 Para Puxar e salvar os arquivos que esté em manuntençao --- GIT ADD.
-Para saber se o arquivo que pé está o arquivo se foi salvo ou não --- GIT ATATUS
+Para saber se o arquivo que pé está o arquivo se foi salvo ou não --- GIT STATUS
 
 On branch master
 
