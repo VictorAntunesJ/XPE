@@ -15,13 +15,19 @@ Para Puxar e salvar os arquivos que esté em manuntençao --- GIT ADD.
 Para saber se o arquivo que pé está o arquivo se foi salvo ou não --- GIT ATATUS
 
 On branch master
+
 No commits yet
+
 Changes to be committed:
+
 (use "git rm --cached <file>..." to unstage)
+
 new file: index.html
 
 GIT COMMIT -A -M ""
+
 -a serve para adicionar todo tipo de arquivo
+
 -m serve para adicionar uma mensagem ""
 
 da mais um GIT STATUS para ver a finalizaçao do processo
