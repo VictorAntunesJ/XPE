@@ -6,21 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
 
-    <title>IMC</title>
+    <title>Curriculo v2</title>
   </head>
   <body>
-    <h1>IMC</h1>
+    <header>
+      <h1>IMC</h1>
+    </header>
 
-    <p>
-      <label for="input-weight">Informe o seu peso (kg):</label>
-      <input id="imput-weight" type="text" />
-    </p>
+    <main>
+      <label for="input-weight"> Peso (kg.)</label><br />
+      <input
+        id="input-weight"
+        type="number"
+        value="98"
+        step="0.1"
+      /><br /><br />
 
-    <p>
-      <label for="input-weight">Informe a sua altura (m):</label>
-      <input id="imput-weight" type="text" />
-    </p>
-    <button>Calcular IMC</button>
+      <label for="input-height">Altura (m)</label><br />
+      <input id="input-height" type="number" value="1.78" step="0.01" />
+
+      <p>
+        <button id="button-calculate-imc">Calcular IMC</button>
+      </p>
+
+      <p id="paragraph-result">
+        O IMC desses dados é: <strong id="imc-result"></strong>
+      </p>
+    </main>
+
     <script defer src="./Js/script.js"></script>
   </body>
 </html>
